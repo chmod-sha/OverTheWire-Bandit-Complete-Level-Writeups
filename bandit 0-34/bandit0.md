@@ -12,6 +12,7 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 When prompted for a password enter `bandit0`
 
 Here:
-`bandit0` is the username
-`bandit.labs.overthewire.org` is the hostname
-`-p 2220` is specifying the port number
+- `bandit0` is the username
+- `bandit.labs.overthewire.org` is the hostname
+- `-p 2220` is specifying the port number
+
