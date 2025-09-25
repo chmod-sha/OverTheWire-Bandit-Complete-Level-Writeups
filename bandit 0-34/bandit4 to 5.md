@@ -1,4 +1,3 @@
-
 # Bandit Level 4 to 5
 
 ## Level Goal
