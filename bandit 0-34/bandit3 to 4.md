@@ -25,7 +25,7 @@ We now run `ls` but it does not show anything as the level goal mentions that th
 bandit3@bandit:~/inhere$ ls
 bandit3@bandit:~/inhere$
 ```
-To find hidden files in Linux, there is a command called `find`. Simply just type it into the terminal and it will show all the files that are hidden in our directory.
+To find hidden files in Linux, there is a command called `find`. Simply type it into the terminal and it will show all the files that are hidden in our directory.
 ```
 bandit3@bandit:~/inhere$ find
 .
@@ -36,7 +36,7 @@ Alternatively, we can also modify the `ls` command to show hidden files. The `-a
 bandit3@bandit:~/inhere$ ls -a
 .  ..  ...Hiding-From-You
 ```
-Now simply just `cat` the file as we have previously done.
+Now just `cat` the file as we have previously done.
 ```
 bandit3@bandit:~/inhere$ cat ./...Hiding-From-You
 XXXBANDIT4PASSWORDXXX
