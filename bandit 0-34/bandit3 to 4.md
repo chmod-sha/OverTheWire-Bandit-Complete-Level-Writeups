@@ -31,8 +31,14 @@ bandit3@bandit:~/inhere$ find
 .
 ./...Hiding-From-You
 ```
+Alternatively, we can also modify the `ls` command into making us show the hidden files. The `-a` flag with the `ls` command (a command-line argument) shows the name of the various files and folders of the current directory, including all the hidden file.
+```
+bandit3@bandit:~/inhere$ ls -a
+.  ..  ...Hiding-From-You
+```
 Now simply just `cat` the file as we have previously done.
 ```
 bandit3@bandit:~/inhere$ cat ./...Hiding-From-You
 XXXBANDIT4PASSWORDXXX
 ```
+
