@@ -3,8 +3,8 @@
 ## Level Goal
 The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
 ## Solution
-This level requires us to read contents from a file called `readme` present in our current directory (home directory) as user bandit0. First, we need to check if this file is actually present.
-`ls` is a command we use for listing files in our current directory. After running this command we can see there is indeed a file named `readme` present.
+This level requires us to read contents from a file called `readme` present in the current directory (home directory) as the user `bandit0`. First, we need to check if this file is actually present.
+`ls` is a command we use for listing files in our current directory. After running this command, we can see there is indeed a file named `readme` present.
 ```
 bandit0@bandit:~$ ls
 readme
